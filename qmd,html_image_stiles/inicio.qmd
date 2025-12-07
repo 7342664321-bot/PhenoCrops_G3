@@ -1,0 +1,56 @@
+---
+title: "UNIVERSIDAD NACIONAL TORIBIO RODRÍGUEZ DE MENDOZA DE AMAZONAS"
+format:
+  html:
+    toc: true
+    toc-location: left
+    theme: cosmo
+    number-sections: true
+    title-block-banner: "untrm1.png"
+    css: styles.css
+    smooth-scroll: true
+editor: visual
+execute:
+  echo: true
+  warning: false
+  message: false
+---
+
+<!-- 🔵 MENÚ SUPERIOR PERSONALIZADO -->
+
+<nav class="custom-nav">
+  <ul>
+    <li><a href="index.html">🏠 Inicio</a></li>
+    <li><a href="introduccion.html">📘 Introducción</a></li>
+    <li><a href="materiales.html">🧪 Materiales y Métodos</a></li>
+    <li><a href="analisis.html">📊 Análisis de Datos</a></li>
+    <li><a href="resultados.html">📈 Resultados y Discusión</a></li>
+    <li><a href="conclusiones.html">📝 Conclusiones</a></li>
+    <li><a href="referencias.html">📚 Referencias</a></li>
+  </ul>
+</nav>
+---
+
+## **INTEGRANTES**
+
+<div class="caja">
+<ul>
+<li>COLUNCHE VASQUEZ JOSUE JHONATAN</li>
+<li>SANCHEZ ALVARADO RUBEN</li>
+<li>TOMAPASCA LÓPEZ FRANK</li>
+<li>DELGADO GOMEZ MARK ANTHONY</li>
+<li>CUBAS FERNANDEZ MIKEY DIDU</li>
+</ul>
+</div>
+
+## **CURSO**
+<div class="caja">
+Programaciòn y Anàliosis de Datos
+</div>
+
+## **DOCENTE**
+<div class="caja">
+Dr. Lozano Isla, Flavio
+</div>
+
+</div>

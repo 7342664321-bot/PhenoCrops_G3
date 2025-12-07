@@ -1,0 +1,64 @@
+---
+title: "conclusiones"
+format:
+  html:
+    toc: true
+    toc-location: left
+    theme: cosmo
+    number-sections: true
+    title-block-banner: "untrm1.png"
+    css: styles.css
+    smooth-scroll: true
+editor: visual
+execute:
+  echo: true
+  warning: false
+  message: false
+---
+
+<!-- 🔵 MENÚ SUPERIOR PERSONALIZADO -->
+
+<nav class="custom-nav sticky">
+
+<ul>
+
+<li><a href="inicio.html">🏠 Inicio</a></li>
+
+<li><a href="introduccion.html">📘 Introducción</a></li>
+
+<li><a href="materiales.html">🧪 Materiales y Métodos</a></li>
+
+<li><a href="analisis.html">📊 Análisis de Datos</a></li>
+
+<li><a href="resultados.html">📈 Resultados y Discusión</a></li>
+
+<li><a href="conclusiones.html">📝 Conclusiones</a></li>
+
+<li><a href="referencias.html">📚 Referencias</a></li>
+
+</ul>
+
+</nav>
+
+> *“Anotación de Imágenes de Hojas de Níspero con Label Studio.*
+
+# INTEGRANTES G3
+
+1.  COLUNCHE VASQUEZ JOSUE JHONATAN
+2.  SANCHEZ ALVARADO RUBEN
+3.  RAMOS BRICEÑO IVAN
+4.  TOMAPASCA LÓPEZ FRANK
+5.  DELGADO GOMEZ MARK ANTHONY
+6.  CUBAS FERNANDEZ MIKEY DIDU
+
+# INTRODUCCIÓN
+
+![](images/etiqueta1.png)
+
+# OBJETIVOS
+
+## General
+
+![](https://img.freepik.com/vector-gratis/gestion-personal-definicion-perspectivas-orientacion-objetivos-organizacion-trabajo-equipo-coach-negocios-ejecutivo-empresa-personajes-dibujos-animados-personal_335657-2967.jpg){width="6.6cm"} ![](https://blog.roboflow.com/content/images/2024/04/image-921.webp){width="9.8cm"}
+
+Explicar el proceso de anotación de imágenes utilizando Label Studio, aplicándolo a un conjunto de imágenes de hojas de níspero (Eriobotrya japonica) para su posterior uso en análisis y proyectos de visión computacional.
