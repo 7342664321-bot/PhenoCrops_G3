@@ -1,5 +1,5 @@
 ---
-title: "Comparación del Fenotipado de Imágenes de Hojas de Níspero (*Eriobotrya japonica*) usando ImageJ y Google Colab"
+title: "Fenotipado de Imágenes de Hojas de Níspero (*Eriobotrya japonica*) usando Google Colab"
 format:
   html:
     toc: true
@@ -38,25 +38,26 @@ execute:
 
 </nav>
 
-<div class="portada">
+:::::: portada
+## UNIVERSIDAD NACIONAL TORIBIO
 
-## UNIVERSIDAD NACIONAL TORIBIO  
 ## RODRÍGUEZ DE MENDOZA DE AMAZONAS
 
----
+------------------------------------------------------------------------
 
-<img src="untrm2.png" class="logo">
+<img src="untrm2.png" class="logo"/>
 
-### **FACULTAD DE INGENIERÍA Y CIENCIAS AGRARIAS**  
+### **FACULTAD DE INGENIERÍA Y CIENCIAS AGRARIAS**
+
 ### **ESCUELA PROFESIONAL DE INGENIERÍA AGRÓNOMA**
 
----
+------------------------------------------------------------------------
 
 # **Comparación del Fenotipado de Imágenes de Hojas de Níspero (*Eriobotrya japonica*) usando ImageJ y Google Colab**
 
 ## **INTEGRANTES**
 
-<div class="caja">
+::: caja
 <ul>
 
 <li>COLUNCHE VASQUEZ JOSUE JHONATAN</li>
@@ -70,19 +71,19 @@ execute:
 <li>CUBAS FERNANDEZ MIKEY DIDU</li>
 
 </ul>
-</div>
+:::
 
 ## **CURSO**
-<div class="caja">
+
+::: caja
 Programaciòn y Analisis de Datos
-</div>
+:::
 
 ## **DOCENTE**
-<div class="caja">
+
+::: caja
 Dr. Lozano Isla, Flavio
-</div>
+:::
+
 ![](https://yoel7576.github.io/Semillas_UIII/images/untrm.jpeg){fig-align="center"}
-</div>
-
-
-
+::::::

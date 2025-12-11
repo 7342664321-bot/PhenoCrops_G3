@@ -1,5 +1,5 @@
 ---
-title: "Comparación del Fenotipado de Imágenes de Hojas de Níspero (*Eriobotrya japonica*) con Google Colab"
+title: "Fenotipado de Imágenes de Hojas de Níspero (*Eriobotrya japonica*) usando Google Colab"
 format:
   html:
     toc: true
