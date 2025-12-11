@@ -28,8 +28,6 @@ execute:
 
 <li><a href="materiales.html">🧪 Materiales y Métodos</a></li>
 
-<li><a href="analisis.html">📊 Análisis de Datos</a></li>
-
 <li><a href="resultados.html">📈 Resultados y Discusión</a></li>
 
 <li><a href="conclusiones.html">📝 Conclusiones</a></li>
