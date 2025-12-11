@@ -1,5 +1,5 @@
 ---
-title: "UNIVERSIDAD NACIONAL TORIBIO RODRÍGUEZ DE MENDOZA DE AMAZONAS"
+title: "Comparación del Fenotipado de Imágenes de Hojas de Níspero (*Eriobotrya japonica*) usando ImageJ y Google Colab"
 format:
   html:
     toc: true
@@ -18,39 +18,71 @@ execute:
 
 <!-- 🔵 MENÚ SUPERIOR PERSONALIZADO -->
 
-<nav class="custom-nav">
-  <ul>
-    <li><a href="index.html">🏠 Inicio</a></li>
-    <li><a href="introduccion.html">📘 Introducción</a></li>
-    <li><a href="materiales.html">🧪 Materiales y Métodos</a></li>
-    <li><a href="analisis.html">📊 Análisis de Datos</a></li>
-    <li><a href="resultados.html">📈 Resultados y Discusión</a></li>
-    <li><a href="conclusiones.html">📝 Conclusiones</a></li>
-    <li><a href="referencias.html">📚 Referencias</a></li>
-  </ul>
+<nav class="custom-nav sticky">
+
+<ul>
+
+<li><a href="inicio.html">🏠 Inicio</a></li>
+
+<li><a href="introduccion.html">📘 Introducción</a></li>
+
+<li><a href="materiales.html">🧪 Materiales y Métodos</a></li>
+
+<li><a href="resultados.html">📈 Resultados y Discusión</a></li>
+
+<li><a href="conclusiones.html">📝 Conclusiones</a></li>
+
+<li><a href="referencias.html">📚 Referencias</a></li>
+
+</ul>
+
 </nav>
+
+<div class="portada">
+
+## UNIVERSIDAD NACIONAL TORIBIO  
+## RODRÍGUEZ DE MENDOZA DE AMAZONAS
+
 ---
+
+<img src="untrm2.png" class="logo">
+
+### **FACULTAD DE INGENIERÍA Y CIENCIAS AGRARIAS**  
+### **ESCUELA PROFESIONAL DE INGENIERÍA AGRÓNOMA**
+
+---
+
+# **Comparación del Fenotipado de Imágenes de Hojas de Níspero (*Eriobotrya japonica*) usando ImageJ y Google Colab**
 
 ## **INTEGRANTES**
 
 <div class="caja">
 <ul>
+
 <li>COLUNCHE VASQUEZ JOSUE JHONATAN</li>
+
 <li>SANCHEZ ALVARADO RUBEN</li>
+
 <li>TOMAPASCA LÓPEZ FRANK</li>
+
 <li>DELGADO GOMEZ MARK ANTHONY</li>
+
 <li>CUBAS FERNANDEZ MIKEY DIDU</li>
+
 </ul>
 </div>
 
 ## **CURSO**
 <div class="caja">
-Programaciòn y Anàliosis de Datos
+Programaciòn y Analisis de Datos
 </div>
 
 ## **DOCENTE**
 <div class="caja">
 Dr. Lozano Isla, Flavio
 </div>
-
+![](https://yoel7576.github.io/Semillas_UIII/images/untrm.jpeg){fig-align="center"}
 </div>
+
+
+

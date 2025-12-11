@@ -1,5 +1,5 @@
 ---
-title: "Introducción"
+title: "Comparación del Fenotipado de Imágenes de Hojas de Níspero (*Eriobotrya japonica*) usando ImageJ y Google Colab"
 format:
   html:
     toc: true
@@ -28,8 +28,6 @@ execute:
 
 <li><a href="materiales.html">🧪 Materiales y Métodos</a></li>
 
-<li><a href="analisis.html">📊 Análisis de Datos</a></li>
-
 <li><a href="resultados.html">📈 Resultados y Discusión</a></li>
 
 <li><a href="conclusiones.html">📝 Conclusiones</a></li>
@@ -40,25 +38,68 @@ execute:
 
 </nav>
 
-> *“Anotación de Imágenes de Hojas de Níspero con Label Studio.*
-
-# INTEGRANTES G3
-
-1.  COLUNCHE VASQUEZ JOSUE JHONATAN
-2.  SANCHEZ ALVARADO RUBEN
-3.  RAMOS BRICEÑO IVAN
-4.  TOMAPASCA LÓPEZ FRANK
-5.  DELGADO GOMEZ MARK ANTHONY
-6.  CUBAS FERNANDEZ MIKEY DIDU
-
 # INTRODUCCIÓN
 
-![](images/etiqueta1.png)
+El fenotipado vegetal constituye una herramienta fundamental para comprender la variabilidad morfológica y funcional de las plantas, permitiendo relacionar sus características externas con procesos fisiológicos, genéticos y ambientales. En los últimos años, el desarrollo de herramientas digitales y técnicas de análisis de imágenes ha facilitado la evaluación precisa, rápida y reproducible de rasgos fenotípicos, superando las limitaciones de los métodos manuales tradicionales.
 
-# OBJETIVOS
+El níspero (*Eriobotrya japonica*) es una especie frutal de importancia creciente debido a su valor nutricional, sus propiedades nutracéuticas y su adaptación a diversos entornos agrícolas. El estudio detallado de la morfología de sus hojas aporta información clave para la selección de genotipos, el monitoreo del estado fisiológico y la identificación de respuestas al manejo agronómico o a factores ambientales.
 
-## General
+En este trabajo se desarrolla un proceso de fenotipado automatizado de hojas de níspero, empleando técnicas de análisis de imágenes a partir de fotografías estandarizadas. Para la automatización y procesamiento computacional se utilizó Google Colab, lo que permitió integrar librerías de visión computacional, segmentación y medición morfológica dentro de un entorno reproducible y accesible.
 
-![](https://img.freepik.com/vector-gratis/gestion-personal-definicion-perspectivas-orientacion-objetivos-organizacion-trabajo-equipo-coach-negocios-ejecutivo-empresa-personajes-dibujos-animados-personal_335657-2967.jpg){width="6.6cm"} ![](https://blog.roboflow.com/content/images/2024/04/image-921.webp){width="9.8cm"}
+Esta metodología facilita la medición de características como área foliar, perímetro, longitud, ancho y otros rasgos cuantitativos, contribuyendo a estudios de fenotipado de bajo costo y alta eficiencia. La implementación de software automatizado en el fenotipado vegetal representa un avance significativo hacia prácticas más precisas, objetivas y escalables, especialmente en cultivos de interés agronómico como el níspero. Este enfoque abre oportunidades para mejorar la caracterización morfológica y apoyar investigaciones orientadas a la productividad, adaptación y selección varietal.
 
-Explicar el proceso de anotación de imágenes utilizando Label Studio, aplicándolo a un conjunto de imágenes de hojas de níspero (Eriobotrya japonica) para su posterior uso en análisis y proyectos de visión computacional.
+
+# Objetivos
+
+## Objetivo general
+
+Realizar el fenotipado automatizado de hojas de níspero (*Eriobotrya japonica*) mediante herramientas de análisis de imágenes en Google Colab, con el fin de obtener mediciones morfológicas precisas y reproducibles.
+
+## Objetivos específicos
+
+1. Capturar y estandarizar imágenes de hojas de níspero empleando una escala de referencia para el cálculo de medidas reales.  
+2. Implementar un flujo de procesamiento digital utilizando Google Colab y librerías de visión computacional.  
+3. Segmentar las hojas y extraer características morfológicas clave como área, longitud y ancho.  
+4. Evaluar la precisión y eficiencia del método automatizado frente a mediciones manuales o tradicionales.  
+5. Generar un conjunto de datos morfométricos que pueda emplearse en estudios posteriores de variabilidad, selección o caracterización agronómica.
+
+# Marco teórico
+
+## Fenotipado Vegetal
+
+El fenotipado vegetal es el conjunto de técnicas empleadas para cuantificar y analizar las características observables de las plantas, incluyendo rasgos morfológicos, fisiológicos y bioquímicos. Estas características resultan de la interacción entre la expresión genética y las condiciones ambientales.
+
+Tradicionalmente, el fenotipado se ha realizado mediante mediciones manuales, las cuales son laboriosas, lentas y sujetas a errores asociados al observador. Como respuesta a estas limitaciones, se han desarrollado métodos de fenotipado automatizado que utilizan tecnologías de visión por computadora y análisis de imágenes para obtener mediciones precisas y reproducibles.
+
+
+## Fenotipado automatizado mediante análisis de imágenes
+
+El análisis de imágenes se ha convertido en una herramienta poderosa para el fenotipado de plantas debido a su capacidad para capturar y procesar grandes cantidades de información de forma rápida y objetiva. Mediante la aplicación de algoritmos de segmentación, detección de contornos y cálculo geométrico, es posible extraer rasgos morfológicos como área foliar, perímetro, longitud, forma y patrones de venación.
+
+El fenotipado automatizado presenta varias ventajas:
+
+1. Reduce el tiempo y esfuerzo manual.  
+2. Minimiza la subjetividad del evaluador.  
+3. Permite analizar grandes conjuntos de datos.  
+4. Facilita la creación de metodologías reproducibles.
+
+Herramientas como Python, OpenCV y plataformas como Google Colab han hecho accesible este tipo de análisis incluso para usuarios sin hardware especializado.
+
+
+
+### Importancia de las hojas como órgano de estudio
+
+Las hojas constituyen el principal sitio de fotosíntesis, intercambio gaseoso y regulación hídrica. La morfología foliar como área, forma, margen y arquitectura de nervaduras; está estrechamente relacionada con procesos fisiológicos y con la adaptación de las plantas a condiciones ambientales específicas.
+
+El estudio foliar permite inferir:
+
+1. La eficiencia fotosintética  
+2. El estado hídrico  
+3. Respuestas a estrés biótico y abiótico  
+4. Características genéticas asociadas a productividad  
+5. Variación intra e intervarietal  
+
+### ¿Qué es Google Colab?
+Google Colaboratory, conocido popularmente como Google Colab, es una plataforma gratuita ofrecida por Google que proporciona un entorno de cuadernos Jupyter alojado en la nube. Permite escribir y ejecutar código en Python, así como visualizar los resultados directamente desde el navegador, sin necesidad de realizar configuraciones ni instalar software de manera local (Vieira, 2024).
+
+

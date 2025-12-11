@@ -1,5 +1,5 @@
 ---
-title: "Materiales y Métodos"
+title: "Comparación del Fenotipado de Imágenes de Hojas de Níspero (*Eriobotrya japonica*) usando ImageJ y Google Colab"
 format:
   html:
     toc: true
@@ -28,8 +28,6 @@ execute:
 
 <li><a href="materiales.html">🧪 Materiales y Métodos</a></li>
 
-<li><a href="analisis.html">📊 Análisis de Datos</a></li>
-
 <li><a href="resultados.html">📈 Resultados y Discusión</a></li>
 
 <li><a href="conclusiones.html">📝 Conclusiones</a></li>
@@ -40,25 +38,52 @@ execute:
 
 </nav>
 
-> *“Anotación de Imágenes de Hojas de Níspero con Label Studio.*
+# Metodología
 
-# INTEGRANTES G3
+## Material vegetal
 
-1.  COLUNCHE VASQUEZ JOSUE JHONATAN
-2.  SANCHEZ ALVARADO RUBEN
-3.  RAMOS BRICEÑO IVAN
-4.  TOMAPASCA LÓPEZ FRANK
-5.  DELGADO GOMEZ MARK ANTHONY
-6.  CUBAS FERNANDEZ MIKEY DIDU
+Se recolectaron hojas de níspero (*Eriobotrya japonica*) provenientes de plantas sanas y en estado fisiológico comparable. Las muestras se seleccionaron asegurando variabilidad en tamaño y forma.
 
-# INTRODUCCIÓN
+## Captura de imágenes
 
-![](images/etiqueta1.png)
+Las hojas fueron fotografiadas en un fondo blanco, incluyendo una moneda como escala para convertir medidas en píxeles a unidades reales. Las imágenes se capturaron bajo iluminación uniforme para evitar sombras y facilitar la segmentación.
 
-# OBJETIVOS
+::: {#fig-imaje12 .center}
+![Hoja analizada](https://franktl04.github.io/PAGINA-WEB-3UND/images/IMAJE_12.png)
+:::
 
-## General
+## Procesamiento en Google Colab
 
-![](https://img.freepik.com/vector-gratis/gestion-personal-definicion-perspectivas-orientacion-objetivos-organizacion-trabajo-equipo-coach-negocios-ejecutivo-empresa-personajes-dibujos-animados-personal_335657-2967.jpg){width="6.6cm"} ![](https://blog.roboflow.com/content/images/2024/04/image-921.webp){width="9.8cm"}
+Para poder fenotipar las imágenes en Google Colab, se empleó un código basado en Python.
 
-Explicar el proceso de anotación de imágenes utilizando Label Studio, aplicándolo a un conjunto de imágenes de hojas de níspero (Eriobotrya japonica) para su posterior uso en análisis y proyectos de visión computacional.
+## Carga de imágenes
+
+Google Colab permite la carga de varias imágenes a la misma vez, lo que facilita el trabajo del usuario.
+
+## Detección de escala
+
+Google Colab identifica el objeto circular y calcula el número de píxeles que ocupa y lo compara con la medida proporcionada (25.5 mm).
+
+## Extracción de rasgos morfológicos
+
+Google Colab identifica el ancho y el largo del objeto a trabajar:
+
+::: {style="text-align:center;"}
+![](https://franktl04.github.io/PAGINA-WEB-3UND/images/WhatsApp%20Image%202025-12-09%20at%2011.14.43%20AM%20(2).jpeg)
+:::
+
+## Exportación de resultados
+
+Una vez obtenidas las medidas, se genera una vista previa de las imágenes y sus respectivas mediciones.
+
+::: {style="text-align:center;"}
+![](https://franktl04.github.io/PAGINA-WEB-3UND/images/WhatsApp%20Image%202025-12-09%20at%2011.14.42%20AM.jpeg)
+:::
+
+Google Colab genera una tabla con las unidades de medida obtenidas, las cuales se exportarán automáticamente a un archivo Excel.
+
+::: {style="text-align:center;"}
+![](https://franktl04.github.io/PAGINA-WEB-3UND/images/WhatsApp%20Image%202025-12-09%20at%2011.14.42%20AM%20(1).jpeg)
+:::
+
+

@@ -28,8 +28,6 @@ execute:
 
 <li><a href="materiales.html">🧪 Materiales y Métodos</a></li>
 
-<li><a href="analisis.html">📊 Análisis de Datos</a></li>
-
 <li><a href="resultados.html">📈 Resultados y Discusión</a></li>
 
 <li><a href="conclusiones.html">📝 Conclusiones</a></li>
@@ -40,25 +38,8 @@ execute:
 
 </nav>
 
-> *“Anotación de Imágenes de Hojas de Níspero con Label Studio.*
+# Referencias
 
-# INTEGRANTES G3
-
-1.  COLUNCHE VASQUEZ JOSUE JHONATAN
-2.  SANCHEZ ALVARADO RUBEN
-3.  RAMOS BRICEÑO IVAN
-4.  TOMAPASCA LÓPEZ FRANK
-5.  DELGADO GOMEZ MARK ANTHONY
-6.  CUBAS FERNANDEZ MIKEY DIDU
-
-# INTRODUCCIÓN
-
-![](images/etiqueta1.png)
-
-# OBJETIVOS
-
-## General
-
-![](https://img.freepik.com/vector-gratis/gestion-personal-definicion-perspectivas-orientacion-objetivos-organizacion-trabajo-equipo-coach-negocios-ejecutivo-empresa-personajes-dibujos-animados-personal_335657-2967.jpg){width="6.6cm"} ![](https://blog.roboflow.com/content/images/2024/04/image-921.webp){width="9.8cm"}
-
-Explicar el proceso de anotación de imágenes utilizando Label Studio, aplicándolo a un conjunto de imágenes de hojas de níspero (Eriobotrya japonica) para su posterior uso en análisis y proyectos de visión computacional.
+-   Acosta, Belén. (2024). Partes de una hoja y sus funciones—Resumen con esquemas. ecologiaverde.com. <https://www.ecologiaverde.com/partes-de-una-hoja-y-sus-funciones-2776.html>
+-   Marta. (2023). Uso de inteligencia artificial para identificar fenotipos—Geneticahoy.com. genteticahoy. <https://geneticahoy.com/uso-de-inteligencia-artificial-para-identificar-fenotipos/>
+-   Vieira, D. (2024). Google Colab: ¿Qué es y cómo usarlo? <https://www.hostgator.pe/blog/google-colab/>

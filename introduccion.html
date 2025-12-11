@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Introducción</title>
+<title>Comparación del Fenotipado de Imágenes de Hojas de Níspero (Eriobotrya japonica) usando ImageJ y Google Colab</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -52,7 +52,7 @@ background-size: cover;
 <header id="title-block-header" class="quarto-title-block default toc-left page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">Introducción</h1>
+      <h1 class="title">Comparación del Fenotipado de Imágenes de Hojas de Níspero (<em>Eriobotrya japonica</em>) usando ImageJ y Google Colab</h1>
                       </div>
   </div>
     
@@ -71,11 +71,20 @@ background-size: cover;
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#integrantes-g3" id="toc-integrantes-g3" class="nav-link active" data-scroll-target="#integrantes-g3"><span class="header-section-number">1</span> INTEGRANTES G3</a></li>
-  <li><a href="#introducción" id="toc-introducción" class="nav-link" data-scroll-target="#introducción"><span class="header-section-number">2</span> INTRODUCCIÓN</a></li>
-  <li><a href="#objetivos" id="toc-objetivos" class="nav-link" data-scroll-target="#objetivos"><span class="header-section-number">3</span> OBJETIVOS</a>
+  <li><a href="#introducción" id="toc-introducción" class="nav-link active" data-scroll-target="#introducción"><span class="header-section-number">1</span> INTRODUCCIÓN</a></li>
+  <li><a href="#objetivos" id="toc-objetivos" class="nav-link" data-scroll-target="#objetivos"><span class="header-section-number">2</span> Objetivos</a>
   <ul class="collapse">
-  <li><a href="#general" id="toc-general" class="nav-link" data-scroll-target="#general"><span class="header-section-number">3.1</span> General</a></li>
+  <li><a href="#objetivo-general" id="toc-objetivo-general" class="nav-link" data-scroll-target="#objetivo-general"><span class="header-section-number">2.1</span> Objetivo general</a></li>
+  <li><a href="#objetivos-específicos" id="toc-objetivos-específicos" class="nav-link" data-scroll-target="#objetivos-específicos"><span class="header-section-number">2.2</span> Objetivos específicos</a></li>
+  </ul></li>
+  <li><a href="#marco-teórico" id="toc-marco-teórico" class="nav-link" data-scroll-target="#marco-teórico"><span class="header-section-number">3</span> Marco teórico</a>
+  <ul class="collapse">
+  <li><a href="#fenotipado-vegetal" id="toc-fenotipado-vegetal" class="nav-link" data-scroll-target="#fenotipado-vegetal"><span class="header-section-number">3.1</span> Fenotipado Vegetal</a></li>
+  <li><a href="#fenotipado-automatizado-mediante-análisis-de-imágenes" id="toc-fenotipado-automatizado-mediante-análisis-de-imágenes" class="nav-link" data-scroll-target="#fenotipado-automatizado-mediante-análisis-de-imágenes"><span class="header-section-number">3.2</span> Fenotipado automatizado mediante análisis de imágenes</a>
+  <ul class="collapse">
+  <li><a href="#importancia-de-las-hojas-como-órgano-de-estudio" id="toc-importancia-de-las-hojas-como-órgano-de-estudio" class="nav-link" data-scroll-target="#importancia-de-las-hojas-como-órgano-de-estudio"><span class="header-section-number">3.2.1</span> Importancia de las hojas como órgano de estudio</a></li>
+  <li><a href="#qué-es-google-colab" id="toc-qué-es-google-colab" class="nav-link" data-scroll-target="#qué-es-google-colab"><span class="header-section-number">3.2.2</span> ¿Qué es Google Colab?</a></li>
+  </ul></li>
   </ul></li>
   </ul>
 </nav>
@@ -101,9 +110,6 @@ background-size: cover;
 <a href="materiales.html">🧪 Materiales y Métodos</a>
 </li>
 <li>
-<a href="analisis.html">📊 Análisis de Datos</a>
-</li>
-<li>
 <a href="resultados.html">📈 Resultados y Discusión</a>
 </li>
 <li>
@@ -114,30 +120,75 @@ background-size: cover;
 </li>
 </ul>
 </nav>
-<blockquote class="blockquote">
-<p><em>“Anotación de Imágenes de Hojas de Níspero con Label Studio.</em></p>
-</blockquote>
-<section id="integrantes-g3" class="level1" data-number="1">
-<h1 data-number="1"><span class="header-section-number">1</span> INTEGRANTES G3</h1>
+<section id="introducción" class="level1" data-number="1">
+<h1 data-number="1"><span class="header-section-number">1</span> INTRODUCCIÓN</h1>
+<p>El fenotipado vegetal constituye una herramienta fundamental para comprender la variabilidad morfológica y funcional de las plantas, permitiendo relacionar sus características externas con procesos fisiológicos, genéticos y ambientales. En los últimos años, el desarrollo de herramientas digitales y técnicas de análisis de imágenes ha facilitado la evaluación precisa, rápida y reproducible de rasgos fenotípicos, superando las limitaciones de los métodos manuales tradicionales.</p>
+<p>El níspero (<em>Eriobotrya japonica</em>) es una especie frutal de importancia creciente debido a su valor nutricional, sus propiedades nutracéuticas y su adaptación a diversos entornos agrícolas. El estudio detallado de la morfología de sus hojas aporta información clave para la selección de genotipos, el monitoreo del estado fisiológico y la identificación de respuestas al manejo agronómico o a factores ambientales.</p>
+<p>En este trabajo se desarrolla un proceso de fenotipado automatizado de hojas de níspero, empleando técnicas de análisis de imágenes a partir de fotografías estandarizadas. Para la automatización y procesamiento computacional se utilizó Google Colab, lo que permitió integrar librerías de visión computacional, segmentación y medición morfológica dentro de un entorno reproducible y accesible.</p>
+<p>Esta metodología facilita la medición de características como área foliar, perímetro, longitud, ancho y otros rasgos cuantitativos, contribuyendo a estudios de fenotipado de bajo costo y alta eficiencia. La implementación de software automatizado en el fenotipado vegetal representa un avance significativo hacia prácticas más precisas, objetivas y escalables, especialmente en cultivos de interés agronómico como el níspero. Este enfoque abre oportunidades para mejorar la caracterización morfológica y apoyar investigaciones orientadas a la productividad, adaptación y selección varietal.</p>
+</section>
+<section id="objetivos" class="level1" data-number="2">
+<h1 data-number="2"><span class="header-section-number">2</span> Objetivos</h1>
+<section id="objetivo-general" class="level2" data-number="2.1">
+<h2 data-number="2.1" class="anchored" data-anchor-id="objetivo-general"><span class="header-section-number">2.1</span> Objetivo general</h2>
+<p>Realizar el fenotipado automatizado de hojas de níspero (<em>Eriobotrya japonica</em>) mediante herramientas de análisis de imágenes en Google Colab, con el fin de obtener mediciones morfológicas precisas y reproducibles.</p>
+</section>
+<section id="objetivos-específicos" class="level2" data-number="2.2">
+<h2 data-number="2.2" class="anchored" data-anchor-id="objetivos-específicos"><span class="header-section-number">2.2</span> Objetivos específicos</h2>
 <ol type="1">
-<li>COLUNCHE VASQUEZ JOSUE JHONATAN</li>
-<li>SANCHEZ ALVARADO RUBEN</li>
-<li>RAMOS BRICEÑO IVAN</li>
-<li>TOMAPASCA LÓPEZ FRANK</li>
-<li>DELGADO GOMEZ MARK ANTHONY</li>
-<li>CUBAS FERNANDEZ MIKEY DIDU</li>
+<li>Capturar y estandarizar imágenes de hojas de níspero empleando una escala de referencia para el cálculo de medidas reales.<br>
+</li>
+<li>Implementar un flujo de procesamiento digital utilizando Google Colab y librerías de visión computacional.<br>
+</li>
+<li>Segmentar las hojas y extraer características morfológicas clave como área, longitud y ancho.<br>
+</li>
+<li>Evaluar la precisión y eficiencia del método automatizado frente a mediciones manuales o tradicionales.<br>
+</li>
+<li>Generar un conjunto de datos morfométricos que pueda emplearse en estudios posteriores de variabilidad, selección o caracterización agronómica.</li>
 </ol>
 </section>
-<section id="introducción" class="level1" data-number="2">
-<h1 data-number="2"><span class="header-section-number">2</span> INTRODUCCIÓN</h1>
-<p><img src="images/etiqueta1.png" class="img-fluid"></p>
 </section>
-<section id="objetivos" class="level1" data-number="3">
-<h1 data-number="3"><span class="header-section-number">3</span> OBJETIVOS</h1>
-<section id="general" class="level2" data-number="3.1">
-<h2 data-number="3.1" class="anchored" data-anchor-id="general"><span class="header-section-number">3.1</span> General</h2>
-<p><img src="https://img.freepik.com/vector-gratis/gestion-personal-definicion-perspectivas-orientacion-objetivos-organizacion-trabajo-equipo-coach-negocios-ejecutivo-empresa-personajes-dibujos-animados-personal_335657-2967.jpg" class="img-fluid" style="width:6.6cm"> <img src="https://blog.roboflow.com/content/images/2024/04/image-921.webp" class="img-fluid" style="width:9.8cm"></p>
-<p>Explicar el proceso de anotación de imágenes utilizando Label Studio, aplicándolo a un conjunto de imágenes de hojas de níspero (Eriobotrya japonica) para su posterior uso en análisis y proyectos de visión computacional.</p>
+<section id="marco-teórico" class="level1" data-number="3">
+<h1 data-number="3"><span class="header-section-number">3</span> Marco teórico</h1>
+<section id="fenotipado-vegetal" class="level2" data-number="3.1">
+<h2 data-number="3.1" class="anchored" data-anchor-id="fenotipado-vegetal"><span class="header-section-number">3.1</span> Fenotipado Vegetal</h2>
+<p>El fenotipado vegetal es el conjunto de técnicas empleadas para cuantificar y analizar las características observables de las plantas, incluyendo rasgos morfológicos, fisiológicos y bioquímicos. Estas características resultan de la interacción entre la expresión genética y las condiciones ambientales.</p>
+<p>Tradicionalmente, el fenotipado se ha realizado mediante mediciones manuales, las cuales son laboriosas, lentas y sujetas a errores asociados al observador. Como respuesta a estas limitaciones, se han desarrollado métodos de fenotipado automatizado que utilizan tecnologías de visión por computadora y análisis de imágenes para obtener mediciones precisas y reproducibles.</p>
+</section>
+<section id="fenotipado-automatizado-mediante-análisis-de-imágenes" class="level2" data-number="3.2">
+<h2 data-number="3.2" class="anchored" data-anchor-id="fenotipado-automatizado-mediante-análisis-de-imágenes"><span class="header-section-number">3.2</span> Fenotipado automatizado mediante análisis de imágenes</h2>
+<p>El análisis de imágenes se ha convertido en una herramienta poderosa para el fenotipado de plantas debido a su capacidad para capturar y procesar grandes cantidades de información de forma rápida y objetiva. Mediante la aplicación de algoritmos de segmentación, detección de contornos y cálculo geométrico, es posible extraer rasgos morfológicos como área foliar, perímetro, longitud, forma y patrones de venación.</p>
+<p>El fenotipado automatizado presenta varias ventajas:</p>
+<ol type="1">
+<li>Reduce el tiempo y esfuerzo manual.<br>
+</li>
+<li>Minimiza la subjetividad del evaluador.<br>
+</li>
+<li>Permite analizar grandes conjuntos de datos.<br>
+</li>
+<li>Facilita la creación de metodologías reproducibles.</li>
+</ol>
+<p>Herramientas como Python, OpenCV y plataformas como Google Colab han hecho accesible este tipo de análisis incluso para usuarios sin hardware especializado.</p>
+<section id="importancia-de-las-hojas-como-órgano-de-estudio" class="level3" data-number="3.2.1">
+<h3 data-number="3.2.1" class="anchored" data-anchor-id="importancia-de-las-hojas-como-órgano-de-estudio"><span class="header-section-number">3.2.1</span> Importancia de las hojas como órgano de estudio</h3>
+<p>Las hojas constituyen el principal sitio de fotosíntesis, intercambio gaseoso y regulación hídrica. La morfología foliar como área, forma, margen y arquitectura de nervaduras; está estrechamente relacionada con procesos fisiológicos y con la adaptación de las plantas a condiciones ambientales específicas.</p>
+<p>El estudio foliar permite inferir:</p>
+<ol type="1">
+<li>La eficiencia fotosintética<br>
+</li>
+<li>El estado hídrico<br>
+</li>
+<li>Respuestas a estrés biótico y abiótico<br>
+</li>
+<li>Características genéticas asociadas a productividad<br>
+</li>
+<li>Variación intra e intervarietal</li>
+</ol>
+</section>
+<section id="qué-es-google-colab" class="level3" data-number="3.2.2">
+<h3 data-number="3.2.2" class="anchored" data-anchor-id="qué-es-google-colab"><span class="header-section-number">3.2.2</span> ¿Qué es Google Colab?</h3>
+<p>Google Colaboratory, conocido popularmente como Google Colab, es una plataforma gratuita ofrecida por Google que proporciona un entorno de cuadernos Jupyter alojado en la nube. Permite escribir y ejecutar código en Python, así como visualizar los resultados directamente desde el navegador, sin necesidad de realizar configuraciones ni instalar software de manera local (Vieira, 2024).</p>
+</section>
 </section>
 </section>
 

@@ -1,5 +1,5 @@
 ---
-title: "Resultados y discusión"
+title: "Resultados "
 format:
   html:
     toc: true
@@ -40,25 +40,15 @@ execute:
 
 </nav>
 
-> *“Anotación de Imágenes de Hojas de Níspero con Label Studio.*
+# Resultados 
 
-# INTEGRANTES G3
+El proceso automatizado de fenotipado permitió obtener mediciones morfológicas precisas de las hojas de níspero (Eriobotrya japonica) a partir del análisis digital realizado en Google Colab. Se procesaron todas las imágenes capturadas, logrando extraer de manera eficiente los valores de longitud, ancho y área foliar mediante algoritmos de segmentación y detección de escala.
 
-1.  COLUNCHE VASQUEZ JOSUE JHONATAN
-2.  SANCHEZ ALVARADO RUBEN
-3.  RAMOS BRICEÑO IVAN
-4.  TOMAPASCA LÓPEZ FRANK
-5.  DELGADO GOMEZ MARK ANTHONY
-6.  CUBAS FERNANDEZ MIKEY DIDU
+Hoja de cálculo generada en formato Excel, conteniendo las medidas obtenidas.
 
-# INTRODUCCIÓN
+::: {style="text-align:center;"}
+![](https://franktl04.github.io/PAGINA-WEB-3UND/images/WhatsApp%20Image%202025-12-09%20at%2010.44.48%20AM.jpeg)
 
-![](images/etiqueta1.png)
+<p><em>Tabla de resultados.</em></p>
+:::
 
-# OBJETIVOS
-
-## General
-
-![](https://img.freepik.com/vector-gratis/gestion-personal-definicion-perspectivas-orientacion-objetivos-organizacion-trabajo-equipo-coach-negocios-ejecutivo-empresa-personajes-dibujos-animados-personal_335657-2967.jpg){width="6.6cm"} ![](https://blog.roboflow.com/content/images/2024/04/image-921.webp){width="9.8cm"}
-
-Explicar el proceso de anotación de imágenes utilizando Label Studio, aplicándolo a un conjunto de imágenes de hojas de níspero (Eriobotrya japonica) para su posterior uso en análisis y proyectos de visión computacional.

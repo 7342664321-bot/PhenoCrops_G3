@@ -1,5 +1,5 @@
 ---
-title: "conclusiones"
+title: "conclusiones y recomendaciones"
 format:
   html:
     toc: true
@@ -40,25 +40,17 @@ execute:
 
 </nav>
 
-> *“Anotación de Imágenes de Hojas de Níspero con Label Studio.*
+# Conclusiones 
 
-# INTEGRANTES G3
+El uso de Google Colab y técnicas de inteligencia artificial basadas en visión por computadora meidante lenguaje Phyton, permitió automatizar de manera eficiente la medición de ancho, longitud y área de las hojas a partir de imágenes. La calibración de la escala mediante una moneda de diámetro conocido aseguró precisión en la escala de milímetros por píxel, reduciendo errores y estandarizando el proceso de análisis.
 
-1.  COLUNCHE VASQUEZ JOSUE JHONATAN
-2.  SANCHEZ ALVARADO RUBEN
-3.  RAMOS BRICEÑO IVAN
-4.  TOMAPASCA LÓPEZ FRANK
-5.  DELGADO GOMEZ MARK ANTHONY
-6.  CUBAS FERNANDEZ MIKEY DIDU
+La automatización desarrollada no solo agilizó el procesamiento de múltiples imágenes a la vez, sino que también generó resultados reproducibles y exportables para análisis posteriores; este enfoque demuestra que las herramientas modernas de IA y procesamiento de imágenes ofrecen soluciones accesibles,rápidas y precisas para estudios agronómicos, mejorando la calidad y rapidez del trabajo.
 
-# INTRODUCCIÓN
+# Recomendaciones 
 
-![](images/etiqueta1.png)
+Para evitar complicaciones al realizar el fenotipado de imágenes mediante inteligencia artificial utilizando Google Colab, es fundamental asegurarse de que las imágenes estén bien definidas y con buena resolución. Además, es importante que la escala de referencia se encuentre siempre en el mismo plano de trabajo que el objeto a analizar, para garantizar mediciones precisas y consistentes.
 
-# OBJETIVOS
 
-## General
 
-![](https://img.freepik.com/vector-gratis/gestion-personal-definicion-perspectivas-orientacion-objetivos-organizacion-trabajo-equipo-coach-negocios-ejecutivo-empresa-personajes-dibujos-animados-personal_335657-2967.jpg){width="6.6cm"} ![](https://blog.roboflow.com/content/images/2024/04/image-921.webp){width="9.8cm"}
 
-Explicar el proceso de anotación de imágenes utilizando Label Studio, aplicándolo a un conjunto de imágenes de hojas de níspero (Eriobotrya japonica) para su posterior uso en análisis y proyectos de visión computacional.
+
