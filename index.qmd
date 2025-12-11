@@ -1,5 +1,5 @@
 ---
-title: "Comparación del Fenotipado de Imágenes de Hojas de Níspero (*Eriobotrya japonica*) usando ImageJ y Google Colab"
+title: "Comparación del Fenotipado de Imágenes de Hojas de Níspero (*Eriobotrya japonica*) con Google Colab"
 format:
   html:
     toc: true
@@ -49,4 +49,3 @@ El método automatizado demostró ventajas frente a los procedimientos manuales,
 El trabajo evidencia que Google Colab, por su accesibilidad y capacidad de procesamiento en la nube, resulta una herramienta efectiva para aplicar inteligencia artificial en análisis agronómicos sin requerir equipos especializados.
 
 Como conclusión esta metodología representa una alternativa confiable y eficiente para estudios de fenotipado vegetal, siempre que se cumpla con una buena calidad de imágenes y la correcta ubicación de la escala de referencia.
-

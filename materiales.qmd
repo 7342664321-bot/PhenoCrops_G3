@@ -1,5 +1,5 @@
 ---
-title: "Comparación del Fenotipado de Imágenes de Hojas de Níspero (*Eriobotrya japonica*) usando ImageJ y Google Colab"
+title: "Comparación del Fenotipado de Imágenes de Hojas de Níspero (*Eriobotrya japonica*) usando Google Colab"
 format:
   html:
     toc: true
@@ -85,5 +85,3 @@ Google Colab genera una tabla con las unidades de medida obtenidas, las cuales s
 ::: {style="text-align:center;"}
 ![](https://franktl04.github.io/PAGINA-WEB-3UND/images/WhatsApp%20Image%202025-12-09%20at%2011.14.42%20AM%20(1).jpeg)
 :::
-
-
